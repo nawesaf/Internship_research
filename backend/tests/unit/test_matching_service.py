@@ -2,7 +2,7 @@ from app.schemas.matching_schema import (
     LLMMatchingAnalysis,
     MatchingBreakdown,
 )
-from app.services.openrouter_matching_service import (
+from app.services.openrouter.openrouter_matching_service import (
     calculate_total_score,
 )
 

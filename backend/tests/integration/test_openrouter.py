@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from app.services.openrouter_matching_service import (
+from app.services.openrouter.openrouter_matching_service import (
     analyze_cv_offer,
 )
 

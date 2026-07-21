@@ -1,10 +1,47 @@
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Variables secrètes
+.env
+.env.local
+.env.*.local
+
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
 
-.venv/
-.env
+# Tests et couverture
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.hypothesis/
 
+# Outils de typage et lint
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.DS_Store
+
+# Documents envoyés par les utilisateurs
 uploads/
 
-.pytest_cache/
-.hypothesis/
+# Données PostgreSQL locales, uniquement si tu utilises
+# un dossier monté depuis le projet
+postgres_data/
+pgdata/

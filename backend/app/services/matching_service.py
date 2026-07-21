@@ -1,5 +1,5 @@
 from app.schemas.matching_schema import MatchingResult
-from app.services.openrouter_matching_service import analyze_cv_offer
+from app.services.openrouter.openrouter_matching_service import analyze_cv_offer
 
 
 async def calculate_matching_score(

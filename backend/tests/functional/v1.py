@@ -1,4 +1,4 @@
-from backend.tests.unit.test_matching_service import test_calculate_total_score
+from tests.unit.test_matching_service import test_calculate_total_score
 
 
 def test_complete_matching_flow(
